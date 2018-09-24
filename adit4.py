@@ -9,32 +9,32 @@ from datetime import timedelta, date
 from datetime import datetime
 from bs4 import BeautifulSoup
 
-aditmadzs = LineClient(authToken='TOKEN')
+aditmadzs = LineClient(authToken='Ex3qgk0V9VYNeN3EVVGd.4ewRNrGM7sVk/ZrcI2TjRq.K/ycLT1sCqGx5Zwbe96T5RYMFctADeLi13OQ5349pzI=')
 aditmadzs.log("Auth Token : " + str(aditmadzs.authToken))
 channel = LineChannel(aditmadzs)
 aditmadzs.log("Channel Access Token : " + str(channel.channelAccessToken))
 
-ki = LineClient(authToken='TOKEN LU')
+ki = LineClient(authToken='ExWavwwildcERyMkOLI6.BaiKNxR2VN7zWCBrQS6P5G.VZ+6eVPFjtslumzEyLKw1BoGmCvBL51t19N4h7Dn6oM=')
 ki.log("Auth Token : " + str(ki.authToken))
 channel1 = LineChannel(ki)
 ki.log("Channel Access Token : " + str(channel1.channelAccessToken))
 
-kk = LineClient(authToken='TOKEN LU')
+kk = LineClient(authToken='ExT5kBoK1U2i9DmwBkJ4.9UGdRKZXRTi7Enfms1+LPa.vdgIX9FkA/mu5A4iVSpsDBdD5UktQxkwF8H23rzap5s=')
 kk.log("Auth Token : " + str(kk.authToken))
 channel2 = LineChannel(kk)
 kk.log("Channel Access Token : " + str(channel2.channelAccessToken))
 
-kc = LineClient(authToken='TOKEN LU')
+kc = LineClient(authToken='Exuh4kMyr0Ux2aJ1R4gf.eb8Fsy+dW4odT30yu3UjtW.rOIeQjcBKkp6STdann8okeg1fAeyPyOpYW3aJkR2IuY=')
 kc.log("Auth Token : " + str(kc.authToken))
 channel3 = LineChannel(kc)
 kc.log("Channel Access Token : " + str(channel3.channelAccessToken))
 
 poll = LinePoll(aditmadzs)
 call = aditmadzs
-creator = ["u874a7502c02896b2edbb3445c2615d35"]
-owner = ["u874a7502c02896b2edbb3445c2615d35"]
-admin = ["u874a7502c02896b2edbb3445c2615d35"]
-staff = ["u874a7502c02896b2edbb3445c2615d35"]
+creator = ["ue045ab9d1826ed2bcafb34428b6b49ad"]
+owner = ["ue045ab9d1826ed2bcafb34428b6b49ad"]
+admin = ["ue045ab9d1826ed2bcafb34428b6b49ad"]
+staff = ["ue045ab9d1826ed2bcafb34428b6b49ad"]
 mid = aditmadzs.getProfile().mid
 Amid = ki.getProfile().mid
 Bmid = kk.getProfile().mid
